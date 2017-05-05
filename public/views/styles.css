@@ -1,0 +1,43 @@
+.card {
+  background-color: #01ABAA;
+  color: white;
+  padding: 1em;
+  margin: 1em;
+}
+
+/*.pic {
+  height: 250px;
+  width: auto;
+}*/
+
+body {
+  background-image: url(http://www.biggrooveradioshow.com/wp-content/uploads/2014/12/23403-vinyl-record-music.png);
+font-family: 'Lato', sans-serif
+}
+
+.jumbotron {
+  text-align:center;
+  background-color: #FEDC3D;
+  color: grey;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#inputDiv {
+  text-align: center;
+}
+
+#outputDiv {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.del{
+  background-color: #FEA680;
+}
+
+#addAlbum {
+  background-color: #FEA680;
+}
