@@ -32,5 +32,13 @@ app.listen( port, function (){
 //route
 app.get('/', function (req, res){
   console.log('base url hit');
-  res.sendFile(path.resolve ('views/index.html'));
+  res.sendFile(path.resolve ('public/views/index.html'));
 });
+
+
+app.post('/album', function(req, res){
+  console.log('in post album');
+  var newAlbum = album(req.body);
+  newAlbum.save();
+  res.send(200);
+});//end of app post
