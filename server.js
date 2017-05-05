@@ -42,3 +42,11 @@ app.post('/album', function(req, res){
   newAlbum.save();
   res.send(200);
 });//end of app post
+
+
+app.get('/album', function(req, res){
+  console.log('get to albums');
+  album.find().then(function(data){
+    res.send(data);
+  });//end album find
+});//end app.get
